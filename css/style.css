@@ -4,3 +4,8 @@ body
     color: #fff;
     text-align: center;
 }
+
+strong
+{
+    color: red;
+}
