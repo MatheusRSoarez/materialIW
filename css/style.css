@@ -1,11 +1,65 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+    width: 100%;
+    background-color: aqua;
+}
+
+.logo
+{
+    color: #fff;
+    text-align: center;
+    font-size: 1.4em;
+}
+
+nav
+{
+    color: #fff;
+    text-align: center;
+    font-size: 1.4em;
+}
 body
 {
     background-color: #000;
     color: #fff;
+}
+
+h1
+{
     text-align: center;
 }
 
-strong
+h2
+{
+    text-align: center;
+}
+
+
+.darkroom__vermelho
 {
     color: red;
+}
+
+.banner
+{
+    width: 100%;
+}
+
+.container
+{
+    background-color: aquamarine;
+    width: 80%;
+    margin: auto;
+}
+
+footer
+{
+    background-color: chocolate;
+    color: 1.3em;
+    text-align: center;
 }
