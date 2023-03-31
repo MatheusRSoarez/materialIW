@@ -1,13 +1,9 @@
-*
-{
-    margin: 0;
-    padding: 0;
-}
+
 
 header
 {
     width: 100%;
-    background-color: aqua;
+    background-color: rgb(69, 81, 81);
 }
 
 .logo
@@ -52,14 +48,19 @@ h2
 
 .container
 {
-    background-color: aquamarine;
+    background-color: rgb(69, 81, 81);
     width: 80%;
     margin: auto;
 }
 
 footer
 {
-    background-color:blue;
+    background-color:rgb(69, 81, 81);
     color: 1.3em;
+    text-align: center;
+}
+
+.biografia__imagem
+{
     text-align: center;
 }
