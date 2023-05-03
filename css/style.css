@@ -29,11 +29,26 @@ nav
     font-size: 1.4em;
 }
 
-h1,h2
+.link__menu
+{
+    text-decoration: none;
+    color: red;
+}
+
+h1
 {
     text-align: center;
     padding-top: 2%;
     padding-bottom: 2%;
+    font-size: 5em;
+}
+
+h2
+{
+    text-align:center;
+    padding-top:2%;
+    padding-bottom: 2%;
+    font-size: 1.5em;
 }
 
 p
@@ -69,6 +84,19 @@ figure
 {
     line-height: 2em;
     padding-top: 2%;
+    text-align: center;
+}
+
+.capas__filmes
+{
+    width: 25em;
+    height: 34.3em;
+}
+
+.capas__jogos
+{
+    width: 22.9em;
+    height: 28.1em;
 }
 
 footer
