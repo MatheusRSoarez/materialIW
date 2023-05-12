@@ -4,8 +4,13 @@ header
 {
     width: 100%;
     background-color: #000;
-    
 }
+
+nav
+{
+    text-decoration: none;
+}
+
 body
 {
     background-color: #000;
@@ -32,7 +37,7 @@ nav
 .link__menu
 {
     text-decoration: none;
-    color: red;
+    color: #fff;
 }
 
 h1
@@ -54,7 +59,6 @@ h2
 p
 {
     line-height: 1.5em;;
-    
 }
 .darkroom__vermelho
 {
@@ -84,24 +88,29 @@ figure
 {
     line-height: 2em;
     padding-top: 2%;
-    text-align: center;
+    padding: 2%;
 }
 
+.topicos_1,.topicos_2
+{
+    line-height: 2em;
+    padding-top: 2%;
+    text-align: center;
+}
 .capas__filmes
 {
-    width: 25em;
-    height: 34.3em;
+    width: 20em;
+    height: 30em;
 }
 
 .capas__jogos
 {
-    width: 22.9em;
-    height: 28.1em;
+    width: 20em;
+    height: 30em;
 }
 
 footer
 {
-    background-color:rgb(69, 81, 81);
     color: 1.3em;
     text-align: center;
 }
