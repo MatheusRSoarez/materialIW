@@ -15,7 +15,6 @@ body
 {
     background-color: #000;
     color: #fff;
-    background-image: url(../img/espaço.jpg);
     background-attachment: fixed;
     font-family: 'Roboto Mono', monospace;;
 }
@@ -38,6 +37,14 @@ nav
 {
     text-decoration: none;
     color: #fff;
+    line-height: 1.5em;
+    font-size: 0.5em;
+}
+
+.link__menu:hover
+{
+    transition: 1s;
+    color: red;
 }
 
 h1
@@ -45,7 +52,7 @@ h1
     text-align: center;
     padding-top: 2%;
     padding-bottom: 2%;
-    font-size: 5em;
+    font-size: 2em;
 }
 
 h2
@@ -72,7 +79,7 @@ figure
 
 .banner
 {
-    width: 90%;
+    width: 50%;
 }
 
 .container
@@ -120,3 +127,5 @@ footer
     text-align: center;
     background-color: #000;
 }
+
+
