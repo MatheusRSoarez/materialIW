@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
+html
+{
+    scroll-behavior: smooth;
+}
+
 header
 {
     width: 100%;
@@ -31,6 +36,11 @@ nav
     color: #fff;
     text-align: center;
     font-size: 1.4em;
+}
+
+.menu
+{
+    padding-bottom: 2%;
 }
 
 .link__menu
@@ -80,8 +90,13 @@ figure
 
 .banner
 {
-    width: 50%;
+    width: 70%;
 }
+
+.banner3
+{
+    width: 50%;
+} 
 
 .container
 {
@@ -92,11 +107,25 @@ figure
     padding-right: 2%;
 }
 
+.biografia__imagem
+{
+    width:43.75em;
+    height:26.25em;
+}
+
 .topicos
 {
     line-height: 2em;
     padding-top: 2%;
     padding: 2%;
+}
+
+.imagem_interrogacao
+{
+    float: left;
+    padding-right: 2%;
+    padding-top: 2%;
+    width: 20%;
 }
 
 .topicos_1,.topicos_2
@@ -127,6 +156,16 @@ footer
 {
     text-align: center;
     background-color: #000;
+}
+
+.link__footer
+{
+    font-size: 1.3em;
+}
+
+.link__footer:hover
+{
+    color: red;
 }
 
 
