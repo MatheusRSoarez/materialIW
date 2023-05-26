@@ -98,6 +98,11 @@ figure
     width: 50%;
 } 
 
+.video
+{
+    text-align: center;
+}
+
 .container
 {
     background-color: #000;
@@ -109,8 +114,7 @@ figure
 
 .biografia__imagem
 {
-    width:43.75em;
-    height:26.25em;
+    width: 80%;
 }
 
 .topicos
@@ -136,13 +140,13 @@ figure
 }
 .capas__filmes
 {
-    width: 20em;
+    width: 80%;
     height: 30em;
 }
 
 .capas__jogos
 {
-    width: 20em;
+    width: 80%;
     height: 30em;
 }
 
@@ -168,4 +172,17 @@ footer
     color: red;
 }
 
+.linha
+{
+    display: flex;
+    flex-flow:row wrap;
+    text-align: center;
+}
+
+.col-3
+{
+    width: 33.33%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
 
