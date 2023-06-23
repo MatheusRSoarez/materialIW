@@ -56,7 +56,7 @@ nav
 {
     transition: 1s;
     color: red;
-    font-size: 1.7em;
+    font-size: 1.2em;
 }
 
 
@@ -217,6 +217,11 @@ table
     width: 100%;
 }
 
+.lista_imagem
+{
+    list-style-image: url(../img/caveira-e-ossos.png);
+}
+
 @media(max-width:800px)
 {
     .linha
@@ -224,3 +229,4 @@ table
         flex-direction:  column;
     }
 }
+
