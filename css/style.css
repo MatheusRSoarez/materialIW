@@ -56,7 +56,7 @@ nav
 {
     transition: 1s;
     color: red;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 
@@ -154,13 +154,13 @@ figure
 }
 .capas__filmes
 {
-    width: 80%;
+    width: auto;
     height: 30em;
 }
 
 .capas__jogos
 {
-    width: 80%;
+    width: auto;
     height: 30em;
 }
 
