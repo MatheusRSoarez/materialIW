@@ -32,6 +32,11 @@ body
     font-size: 1.4em;
 }
 
+.logo_foto
+{
+    width: 20%;
+}
+
 nav
 {
     color: #fff;
@@ -141,7 +146,7 @@ figure
 
 .imagem_interrogacao
 {
-    float: left;
+    float: right;
     width: 20%;
     box-shadow: 10px 10px 5px grey;
 }
@@ -220,7 +225,8 @@ table
 
 .lista_imagem
 {
-    list-style-image: url(../img/caveira-e-ossos.png);
+    list-style-image: url(../img/placa.png);
+    
 }
 
 @media(max-width:800px)
