@@ -5,6 +5,19 @@
     padding: 0;
 }
 
+a
+{
+    text-decoration: none;
+    color:#fff7cd
+}
+
+a:hover
+{
+    transition: 0.5s;
+    background-color: #e7900d;
+    padding: 0.5em;
+}
+
 .fixado{
     position: fixed;
     top: 0;
@@ -21,7 +34,7 @@
 
 .relativo1{
     position: relative;
-    border: solid 10px #FFE975;
+    border: solid 10px #e7c20d;
     top: 10em;
     left:10em;
     width: 10em;
