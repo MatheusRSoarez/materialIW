@@ -44,6 +44,53 @@ a:hover
     border: solid #FABA70 0.5em ;
 }
 
+.cimaesquerda{
+    margin-top: 10%;
+    position: absolute;
+    top: 0.5rem;
+    left: 1rem;
+    font-size: 1em;
+    font-family:'Manrope', sans-serif;
+    border: solid #FABA70 0.5em ;
+}
+
+.baixoesquerda{
+    margin-top: 10%;
+    position: absolute;
+    bottom: 0.5rem;
+    left: 1rem;
+    font-size: 1em;
+    font-family:'Manrope', sans-serif;
+    border: solid #FABA70 0.5em ;
+}
+
+.baixodireita{
+    margin-top: 10%;
+    position: absolute;
+    bottom: 0.5rem;
+    right: 1rem;
+    font-size: 1em;
+    font-family:'Manrope', sans-serif;
+    border: solid #FABA70 0.5em ;
+}
+
+.relative{
+    position: relative;
+    width: 25rem;
+    height: 12.5rem;
+    border: 3px solid #FABA70;
+}
+
+.centro{
+     position: absolute;
+     top: 50%;
+     width: 100%;
+     text-align: center;
+     font-size: 1em;
+     font-family:'Manrope', sans-serif;
+     border: #FABA70;
+}
+
 img { 
     margin-top: 5%;
     width: 100%;
