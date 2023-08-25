@@ -21,40 +21,32 @@ a:hover
 .fixado{
     position: fixed;
     top: 0;
-    width: 100%;
+    right: 0;
+    left: 0;
+    z-index: 1;
     text-align: center;
     background-color: #FABA70;
     padding: 1%;
     font-family: 'Manrope', sans-serif;
 }
 
-.relativo0{
+.container{
     position: relative;
 }
 
-.relativo1{
-    position: relative;
-    border: solid 10px #e7c20d;
-    top: 10em;
-    left:10em;
-    width: 10em;
-    height:10em;
-    font-family:'Manrope', sans-serif;
-}
-
-.absoluto
-{
+.cimadireita{
+    margin-top: 10%;
     position: absolute;
-    bottom: 1em;
-    right: 1em;
-    border: solid 5px #FABA70;
-    width:5em;
-    height: 5em;
+    top: 0.5rem;
+    right: 1rem;
+    font-size: 1em;
+    font-family:'Manrope', sans-serif;
+    border: solid #FABA70 0.5em ;
 }
 
-.fixado-baixo{
-    position: fixed;
-    bottom: 1em;
-    right: 1em;
-}
-
+img { 
+    margin-top: 5%;
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
+  }
