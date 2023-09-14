@@ -274,6 +274,17 @@ input[type=text], select, textarea ,::placeholder{
     padding-bottom: 1%;
 }
 
+.botão__enviar{
+    background-color: rgb(58, 57, 57);
+    padding: 0.5em;
+    border-radius: 0.5em;
+    color: #fff;
+}
+
+.botão__enviar:hover{
+    background-color: rgb(156, 154, 154);;
+}
+
 @media(max-width:800px){
     .linha{
         flex-direction:  column;
