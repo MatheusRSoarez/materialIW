@@ -44,6 +44,7 @@ body
 .logo_foto
 {
     width: 10%;
+
 }
 
 nav
@@ -296,5 +297,10 @@ input[type=text], select, textarea ,::placeholder{
         display: flex;
         flex-direction: column;
         gap: 2%;
+        
+    }
+    body{
+
+        margin-top: 60%;
     }
 }
